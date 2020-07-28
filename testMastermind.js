@@ -7,9 +7,7 @@ describe('Mastermind', () => {
     const masterMind = new MasterMind(masterCombination)
     
     // Act
-    const result = 
-masterMind.compare
-(userCombination)
+    const result = masterMind.compare(userCombination)
   
     // Assert  
     const expected = { wellPlaced: 0, misPlaced: 0 }
@@ -23,9 +21,7 @@ masterMind.compare
     const masterMind = new MasterMind(masterCombination)
     
     // Act
-    const result = 
-masterMind.compare
-(userCombination)
+    const result = masterMind.compare(userCombination)
     
     // Assert  
     const expected = { wellPlaced: 4, misPlaced: 0 }
@@ -39,9 +35,7 @@ masterMind.compare
     const masterMind = new MasterMind(masterCombination)
     
     // Act
-    const result = 
-masterMind.compare
-(userCombination)
+    const result = masterMind.compare(userCombination)
     
     // Assert  
     const expected = { wellPlaced: 1, misPlaced: 0 }
@@ -55,9 +49,7 @@ masterMind.compare
     const masterMind = new MasterMind(masterCombination)
     
     // Act
-    const result = 
-masterMind.compare
-(userCombination)
+    const result = masterMind.compare(userCombination)
     
     // Assert  
     const expected = { wellPlaced: 2, misPlaced: 0 }
@@ -71,9 +63,7 @@ masterMind.compare
     const masterMind = new MasterMind(masterCombination)
     
     // Act
-    const result = 
-masterMind.compare
-(userCombination)
+    const result = masterMind.compare(userCombination)
     
     // Assert  
     const expected = { wellPlaced: 0, misPlaced: 1 }
@@ -87,9 +77,7 @@ masterMind.compare
     const masterMind = new MasterMind(masterCombination)
     
     // Act
-    const result = 
-masterMind.compare
-(userCombination)
+    const result = masterMind.compare(userCombination)
     
     // Assert  
     const expected = { wellPlaced: 0, misPlaced: 2 }
@@ -104,9 +92,7 @@ masterMind.compare
     const masterMind = new MasterMind(masterCombination)
     
     // Act
-    const result = 
-masterMind.compare
-(userCombination)
+    const result = masterMind.compare(userCombination)
     
     // Assert  
     const expected = { wellPlaced: 2, misPlaced: 1 }
